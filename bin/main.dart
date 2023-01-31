@@ -6,14 +6,20 @@
 
 void main() {
   // 1 : Expression inside string
-  var name = 'Rahul';
-  print('This is a name ${name}');
-  print('convert the upper case ${name.toUpperCase()}'); // same as lowercase
+  // var name = 'Rahul';
+  // print('This is a name ${name}');
+  // print('convert the upper case ${name.toUpperCase()}'); // same as lowercase
 
-  // 2 : String Concatenation
-  print('Hello Dart');
-  print('Hello ' + 'World');
-  var s1 = 'Hello';
-  var s2 = 'Jaimin';
-  print(s1 + ' ' + s2);
+  // // 2 : String Concatenation
+  // print('Hello Dart');
+  // print('Hello ' + 'World');
+  // var s1 = 'Hello';
+  // var s2 = 'Jaimin';
+  // print(s1 + ' ' + s2);
+
+  // 3 : Row String
+  var s3 = 'In a raw string, not even \n gets special treatment';
+  var s4 = r'In a raw string, not even \n gets special treatment';
+  print(s3);
+  print(s4);
 }
